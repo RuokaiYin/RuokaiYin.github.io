@@ -1,3 +1,3 @@
-Jiawei "Tyler" Gu's personal page
+Ruokai Yin's personal page
 =================================
-Custom link: tylergu.com
+Custom link: https://ruokaiyin.github.io/
