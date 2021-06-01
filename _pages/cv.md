@@ -11,9 +11,14 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S.-Electrical Engineering, University of Wisconsin-Madison, 2018-2021
+  * Major: Electrical Engineering, Computer Science, Applied Mathematics
+  * GPA: 3.96/4.00
+  * Honor: Dean's Honor List Fall 2018 - Fall 2020
+           Distinction in Computer Science
+           Graduated with Distinction in College of Engineering
+* Ph.D, Yale University, 2021-now
+  * Major: Electrical Engineering
 
 Work experience
 ======
