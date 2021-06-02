@@ -14,11 +14,10 @@ Education
 * B.S.-Electrical Engineering, University of Wisconsin-Madison, 2018-2021
   * Major: Electrical Engineering, Computer Science, Applied Mathematics
   * GPA: 3.96/4.00
-  * Honor: Dean's Honor List Fall 2018 - Fall 2020
-          <br/><br/>
-           Distinction in Computer Science
-           <br/><br/>
-           Graduated with Distinction in College of Engineering
+  * Honors: 
+      * Dean's Honor List Fall 2018 - Fall 2020
+      * Distinction in Computer Science
+      * Graduated with Distinction in College of Engineering
 * Ph.D, Yale University, 2021-now
   * Major: Electrical Engineering
 
