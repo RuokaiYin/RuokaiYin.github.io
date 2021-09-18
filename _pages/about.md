@@ -9,8 +9,10 @@ redirect_from:
 ---
 
 Ruokai is a PhD student in the [Department of Electrical Engineering](https://seas.yale.edu/departments/electrical-engineering) at Yale University,
-advised by [Professor Priya Panda](https://intelligentcomputinglab.yale.edu/principal-investigator).
+advised by [Prof. Priya Panda](https://intelligentcomputinglab.yale.edu/principal-investigator).
 
-His research interests lie in designing high performance computer architecture for neural computing applications.
+His research interests lie in designing high-performance computer architectures for intelligent computing applications, such as neural networks.
 
-Prior to joining Yale, he recieved his BS-Electrical Engineering degree from the University of Wisconsin-Madison. He worked with [Professor Joshua San Miguel](https://jsm.ece.wisc.edu/) on unary computing, trying to embed unary computing into mutiple real world applications(e.g machine learning, image processing) so that to boost their performances.
+Prior to joining Yale, he recieved his BS-Electrical Engineering degree from the University of Wisconsin-Madison. He worked with [Prof. Joshua San Miguel](https://jsm.ece.wisc.edu/) on computer architectures for stochastic computing.
+
+He loves soccer, dogs, and Murakami Haruki. He has also been an amateur drummer since high school.
