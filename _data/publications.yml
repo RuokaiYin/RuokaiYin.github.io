@@ -7,7 +7,7 @@
   month:
   address:
   publisher: IEEE
-  conference:
+  conference: N
   file: ugemm_top.pdf
   code: https://github.com/diwu1990/UnarySim
 
@@ -31,7 +31,7 @@
   month:
   address:
   publisher: IEEE
-  conference:
+  conference: N
   file: udiv.pdf
   code: https://github.com/diwu1990/UnarySim
 

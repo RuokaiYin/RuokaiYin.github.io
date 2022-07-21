@@ -5,7 +5,8 @@
 </div>
 
 {% for publication in site.data.publications %}
-{% if publication.conference == "" %}
+{% if publication.conference == "N" %}
+
 <div class="row">
     <div class="col-2 align-self-center">
         <h4 class="conference">{{ publication.booktitle }}</h4>
