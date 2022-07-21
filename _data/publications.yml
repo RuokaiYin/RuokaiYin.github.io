@@ -1,16 +1,33 @@
-- title: Automatic Reliability Testing For Cluster Management Controllers
+- title: "uGEMM: Unary Computing for GEMM Applications"
   author: >
-    Xudong Sun, Wenqing Luo, <b>Jiawei Tyler Gu</b>, 
-    Aishwarya Ganesan, Ramnatthan Alagappan,  Michael Gasch, 
-    Lalith Suresh, and Tianyin Xu
-  booktitle: 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22)
-  year: 2022
-  month: Jul
-  address: Carlsbad, CA
-  publisher: USENIX Association
-  conference: OSDI'22
-  file: sieve.pdf
-  code: https://github.com/sieve-project/sieve
+    Di Wu, Jingjie Li, <b>Ruokai Yin</b>, 
+    Hsuan Hsiao, Younghyun Kim, and Joshua San Miguel
+  booktitle: IEEE Micro Top Picks 2021
+  year: 2021
+  publisher: IEEE
+  file: ugemm_top.pdf
+  code: https://github.com/diwu1990/UnarySim
+
+- title: "Normalized Stability: A Cross-Level Design Metric for Early Termination in Stochastic Computing"
+  author: >
+    Di Wu, <b>Ruokai Yin</b>, and Joshua San Miguel
+  booktitle: Proceedings of the 26th Asia and South Pacific Design Automation Conference
+  year: 2021
+  month: Jan
+  address: Tokyo, Japan
+  publisher: ACM
+  conference: ASPDAC'21
+  file: ns.pdf
+  code: https://github.com/diwu1990/UnarySim
+
+- title: "In-Stream Correlation-Based Division and Bit-Inserting Square Root in Stochastic Computing"
+  author: >
+    Di Wu, <b>Ruokai Yin</b>, and Joshua San Miguel
+  booktitle: IEEE Design & Test
+  year: 2021
+  publisher: IEEE
+  file: udiv.pdf
+  code: https://github.com/diwu1990/UnarySim
 
 - title: "uGEMM: Unary Computing Architecture for GEMM Applications"
   author: >
