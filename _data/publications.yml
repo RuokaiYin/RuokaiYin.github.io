@@ -4,8 +4,8 @@
     Hsuan Hsiao, Younghyun Kim, and Joshua San Miguel
   booktitle: IEEE Micro Top Picks 2021
   year: 2021
-  month: 
-  address: 
+  month:
+  address:
   publisher: IEEE
   conference: 
   file: ugemm_top.pdf
@@ -28,10 +28,10 @@
     Di Wu, <b>Ruokai Yin</b>, and Joshua San Miguel
   booktitle: IEEE Design & Test
   year: 2021
-  month: 
-  address: 
+  month:
+  address:
   publisher: IEEE
-  conference: 
+  conference:
   file: udiv.pdf
   code: https://github.com/diwu1990/UnarySim
 
