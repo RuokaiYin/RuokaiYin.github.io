@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-12">
+        <h2>Publication</h2>
+    </div>
+</div>
+
+{% for publication in site.data.publications %}
+<div class="row">
+    <div class="col-2 align-self-center">
+        <h4 class="conference">{{ publication.conference }}</h4>
+    </div>
+    <div class="col-10">
+        <p>
+        <nobr class="papertitle"> {{ publication.title }} </nobr>
+        &nbsp;&nbsp;&nbsp;
+        [<a class="paperauthors" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
+        &nbsp;
+        [<a class="paperauthors" href="{{ publication.code }}">code</a>]
+        </p>
+        <p class="paperauthors"> {{ publication.author }} </p>
+        <p class="paperauthors"> {{ publication.booktitle }}, {{ publication.address }},
+            {{ publication.month }}, {{ publication.year }} </p>
+    </div>
+</div>
+{% endfor %}

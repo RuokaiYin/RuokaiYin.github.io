@@ -1,31 +1,22 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html>
 
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="UXRJxSf5_F-191BWvs3U0DYLxZHpu5WOmQujVWV1uN4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/circle_icon.ico" />
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<body>
+    <div class="container">
+        {% include header.html %}
+        {% include navigation.html %}
+        {{ content }}
     </div>
+</body>
 
-    {% include scripts.html %}
-
-  </body>
 </html>
