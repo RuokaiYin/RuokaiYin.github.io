@@ -14,7 +14,7 @@
 - title: "Normalized Stability: A Cross-Level Design Metric for Early Termination in Stochastic Computing"
   author: >
     Di Wu, <b>Ruokai Yin</b>, and Joshua San Miguel
-  booktitle: Proceedings of the 26th Asia and South Pacific Design Automation Conference
+  booktitle: Proceedings of the 26th Asia and South Pacific Design Automation Conference (ASPDAC)
   year: 2021
   month: Jan
   address: Tokyo, Japan
@@ -39,7 +39,7 @@
   author: >
     Di Wu, Jingjie Li, <b>Ruokai Yin</b>, 
     Hsuan Hsiao, Younghyun Kim, and Joshua San Miguel
-  booktitle: 47th Annual International Symposium on Computer Architecture
+  booktitle: 47th Annual International Symposium on Computer Architecture (ISCA)
   year: 2020
   month: Jun
   address: Valencia, Spain
