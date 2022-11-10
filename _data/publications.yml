@@ -1,3 +1,27 @@
+- title: "SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks"
+  author: >
+    <b>Ruokai Yin</b>, Abhishek Moitra, Abhiroop Bhattacharjee, Youngeun Kim, Priyadarshini Panda
+  booktitle: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
+  year: 2022
+  month:
+  address:
+  publisher: IEEE
+  conference: N
+  file: sata.pdf
+  code: https://github.com/RuokaiYin/SATA_Sim
+
+- title: "Exploring Lottery Ticket Hypothesis in Spiking Neural Networks"
+  author: >
+    Youngeun Kim, Yuhang Li, Hyoungseob Park, Yeshwanth Venkatesha, <b>Ruokai Yin</b>, Priyadarshini Panda
+  booktitle: 18th European Conference on Computer Vision
+  year: 2022
+  month: 10
+  address: Tel Aviv, Israel
+  publisher: IEEE
+  conference: ECCV'22
+  file: lth.pdf
+  code: https://github.com/intelligent-computing-lab-yale/exploring-lottery-ticket-hypothesis-in-snns
+
 - title: "uGEMM: Unary Computing for GEMM Applications"
   author: >
     Di Wu, Jingjie Li, <b>Ruokai Yin</b>, 
