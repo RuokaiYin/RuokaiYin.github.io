@@ -1,3 +1,27 @@
+- title: "Efficient Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
+  author: >
+    Yuhang Li, <b>Ruokai Yin</b>, Youngeun Kim, Priyadarshini Panda
+  booktitle: Frontiers in Neuroscience
+  year: 2023
+  month: 
+  address:
+  publisher: IEEE
+  conference: N
+  file: https://www.frontiersin.org/articles/10.3389/fnins.2023.1233037/abstract
+  code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
+
+- title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
+  author: >
+    Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
+  booktitle: 36th NeurIPS Workshop on Learning from Time Series for Health <b>(Selected as Spotlight Paper)</b>
+  year: 2022
+  month: Dec
+  address: New Orleans, US
+  publisher: IEEE
+  conference: NeurIPS'22
+  file: har_snn.pdf
+  code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
+
 - title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
     Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
