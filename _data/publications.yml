@@ -1,3 +1,15 @@
+- title: "Sharing Leaky-Integrate-and-Fire Neurons for Memory-Efficient Spiking Neural Networks"
+  author: >
+    Youngeun, Yuhang Li, Abhishek Moitra, <b>Ruokai Yin</b>, Priyadarshini Panda
+  booktitle: Frontiers in Neuroscience
+  year: 2023
+  month: 
+  address:
+  publisher: IEEE
+  conference: N
+  file: shared-lif.pdf
+  code: https://github.com/Intelligent-Computing-Lab-Yale/EfficientLIF-Net
+
 - title: "Efficient Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
     Yuhang Li, <b>Ruokai Yin</b>, Youngeun Kim, Priyadarshini Panda
@@ -22,17 +34,6 @@
   file: har_snn.pdf
   code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
 
-- title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
-  author: >
-    Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
-  booktitle: 36th NeurIPS Workshop on Learning from Time Series for Health <b>(Selected as Spotlight Paper)</b>
-  year: 2022
-  month: Dec
-  address: New Orleans, US
-  publisher: IEEE
-  conference: NeurIPS'22
-  file: har_snn.pdf
-  code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
 
 - title: "SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks"
   author: >
