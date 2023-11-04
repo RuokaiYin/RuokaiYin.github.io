@@ -7,8 +7,8 @@
   address: Incheon, Korea
   publisher: IEEE
   conference: ASP-DAC'24
-  file: MINT_2024_ASPDAC.pdf
-  code: https://github.com/Intelligent-Computing-Lab-Yale/
+  file: mint.pdf
+  code: https://github.com/RuokaiYin/MINT_Quantization
 
 - title: "Sharing Leaky-Integrate-and-Fire Neurons for Memory-Efficient Spiking Neural Networks"
   author: >
