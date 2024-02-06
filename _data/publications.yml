@@ -9,6 +9,7 @@
   conference: ASP-DAC'24
   file: mint.pdf
   code: https://github.com/RuokaiYin/MINT_Quantization
+  pre: mint-aspdac2024.pptx
 
 - title: "Sharing Leaky-Integrate-and-Fire Neurons for Memory-Efficient Spiking Neural Networks"
   author: >
@@ -21,6 +22,7 @@
   conference: N
   file: shared-lif.pdf
   code: https://github.com/Intelligent-Computing-Lab-Yale/EfficientLIF-Net
+  pre: N
 
 - title: "Efficient Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
@@ -33,6 +35,7 @@
   conference: N
   file: snnhar.pdf
   code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
+  pre: N
 
 - title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
@@ -45,6 +48,7 @@
   conference: NeurIPS'22
   file: har_snn.pdf
   code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
+  pre: N
 
 
 - title: "SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks"
@@ -58,6 +62,7 @@
   conference: N
   file: sata.pdf
   code: https://github.com/RuokaiYin/SATA_Sim
+  pre: N
 
 - title: "Exploring Lottery Ticket Hypothesis in Spiking Neural Networks"
   author: >
@@ -70,6 +75,7 @@
   conference: ECCV'22
   file: lth.pdf
   code: https://github.com/intelligent-computing-lab-yale/exploring-lottery-ticket-hypothesis-in-snns
+  pre: N
 
 - title: "uGEMM: Unary Computing for GEMM Applications"
   author: >
@@ -83,6 +89,7 @@
   conference: N
   file: ugemm_top.pdf
   code: https://github.com/diwu1990/UnarySim
+  pre: N
 
 - title: "Normalized Stability: A Cross-Level Design Metric for Early Termination in Stochastic Computing"
   author: >
@@ -95,6 +102,7 @@
   conference: ASPDAC'21
   file: ns.pdf
   code: https://github.com/diwu1990/UnarySim
+  pre: N
 
 - title: "In-Stream Correlation-Based Division and Bit-Inserting Square Root in Stochastic Computing"
   author: >
@@ -107,6 +115,7 @@
   conference: N
   file: udiv.pdf
   code: https://github.com/diwu1990/UnarySim
+  pre: N
 
 - title: "uGEMM: Unary Computing Architecture for GEMM Applications"
   author: >
@@ -120,3 +129,4 @@
   conference: ISCA'20
   file: ugemm.pdf
   code: https://github.com/diwu1990/UnarySim
+  pre: N

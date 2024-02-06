@@ -25,6 +25,27 @@
     </div>
 </div>
 
+{% if publication.pre != "N" %}
+
+<div class="row">
+    <!-- <div class="col-2 align-self-center"> -->
+    <!-- <div class="col-2">
+        <h4 class="conference">{{ publication.booktitle }}</h4>
+    </div> -->
+    <div class="col-12">
+        <nobr class="papertitle"> {{ publication.title }} </nobr>
+        &nbsp;&nbsp;&nbsp;
+        [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
+        &nbsp;
+        [<a class="papertitle" href="{{ publication.code }}">code</a>]
+        &nbsp;
+        [<a class="papertitle" href="{{ site.baseurl }}/slides/{{publication.pre}}">slides</a>]
+        <div class="paperauthors"> {{ publication.author }} </div>
+        <p class="paperauthors"> {{ publication.booktitle }}, {{ publication.year }} </p>
+        <br>
+    </div>
+</div>
+
 {% else %}
 
 <div class="row">
