@@ -70,4 +70,15 @@ title: Fun Stuff
         <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
         <a class="next" onclick="plusDivs(1)">&#10095;</a>
     </div>
+
+    <hr>
+    <footer class="d-flex justify-content-center align-items-center" style="height: 100px;">
+        <p style="font-size: small;">
+            Last Modified: <span id="lastModified"></span>, 
+            First Modified: 2020-09-08 by Ruokai Yin
+        </p>
+        <script>
+            document.getElementById('lastModified').textContent = document.lastModified.split(" ")[0];
+        </script>
+    </footer>
 </body>
