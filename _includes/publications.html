@@ -32,14 +32,14 @@
         <h4 class="conference">{{ publication.conference }}</h4>
     </div> -->
     <div class="col-12">
-        <nobr class="papertitle"> {{ publication.title }} </nobr>
-        &nbsp;&nbsp;&nbsp;
-        [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
-        &nbsp;
-        [<a class="papertitle" href="{{ publication.code }}">code</a>]
+        <p class="papertitle"> {{ publication.title }} </p>
+        <!-- &nbsp;&nbsp;&nbsp; -->
         <div class="paperauthors"> {{ publication.author }} </div>
         <p class="paperauthors"> {{ publication.booktitle }},
             {{ publication.month }}, {{ publication.year }} </p>
+        [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
+        &nbsp;
+        [<a class="papertitle" href="{{ publication.code }}">code</a>]
         <br>
     </div>
 </div>
@@ -65,3 +65,21 @@
 </div>
 {% endif %}
 {% endfor %}
+
+
+
+
+
+
+<!-- <div class="row">
+    <div class="col-12">
+        <nobr class="papertitle"> {{ publication.title }} </nobr>
+        &nbsp;&nbsp;&nbsp;
+        [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
+        &nbsp;
+        [<a class="papertitle" href="{{ publication.code }}">code</a>]
+        <div class="paperauthors"> {{ publication.author }} </div>
+        <p class="paperauthors"> {{ publication.booktitle }}, {{ publication.year }} </p>
+        <br>
+    </div>
+</div> -->
