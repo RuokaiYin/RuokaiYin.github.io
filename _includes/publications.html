@@ -54,7 +54,8 @@
         <nobr class="papertitle"> {{ publication.title }} </nobr>
         <!-- &nbsp;&nbsp;&nbsp; -->
         <div class="paperauthors"> {{ publication.author }} </div>
-        <div class="paperauthors"> {{ publication.booktitle }}, {{ publication.year }} </div>
+        <div class="paperauthors"> {{ publication.booktitle }},
+            {{ publication.month }}, {{ publication.year }} </div>
         [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
         &nbsp;
         [<a class="papertitle" href="{{ publication.code }}">code</a>]
