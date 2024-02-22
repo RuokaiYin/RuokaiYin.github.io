@@ -1,3 +1,16 @@
+- title: "Are SNNs Truly Energy-efficient? - A Hardware Perspective"
+  author: >
+    Abhiroop Bhattacharjee*, <b>Ruokai Yin*</b>, Abhishek Moitra*, Priyadarshini Panda (* Equal Contribution)
+  booktitle: 2024 IEEE International Conference on Acounstics, Speech, and Signal Processing
+  year: 2024
+  month: April
+  address: Seoul, Korea
+  publisher: IEEE
+  conference: ICASSP'24
+  file: icassp2024.pdf
+  code: https://github.com/RuokaiYin/SATA_Sim
+  pre: N
+
 - title: "MINT: Multiplier-less INTeger Quantization for Energy Efficient Spiking Neural Networks"
   author: >
     <b>Ruokai Yin</b>, Yuhang Li, Abhishek Moitra, Priyadarshini Panda
