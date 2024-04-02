@@ -1,3 +1,16 @@
+- title: "TT-SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training"
+  author: >
+    Donghyun Lee, <b>Ruokai Yin</b>, Youngeun Kim, Abhishek Moitra, Yuhang Li, Priyadarshini Panda
+  booktitle: IEEE Transactions on Emerging Topics in Computational Intelligence
+  year: 2024
+  month: Mar
+  address: Valencia, Spain
+  publisher: IEEE
+  conference: DATE'24
+  file: tt_snn.pdf
+  code: https://github.com/RuokaiYin/SATA_Sim
+  pre: N
+
 - title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
   author: >
     <b>Ruokai Yin</b>, Youngeun Kim, Yuhang Li, Abhishek Moitra, Nitin Satpute, Anna Hambitzer, Priyadarshini Panda
