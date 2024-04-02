@@ -1,7 +1,7 @@
 - title: "TT-SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training"
   author: >
     Donghyun Lee, <b>Ruokai Yin</b>, Youngeun Kim, Abhishek Moitra, Yuhang Li, Priyadarshini Panda
-  booktitle: IEEE Transactions on Emerging Topics in Computational Intelligence
+  booktitle: 27th Design, Automation and Test in Europe Conference (DATE)
   year: 2024
   month: Mar
   address: Valencia, Spain
