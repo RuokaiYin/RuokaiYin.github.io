@@ -55,7 +55,9 @@ title: Fun Stuff
         <!-- <script>
             
         </script> -->
-    
+        <!-- Dots container -->
+        <div class="dots" style="text-align:center; padding-top:10px;"></div>
+
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
         <a class="next" onclick="plusDivs(1)">&#10095;</a>
@@ -68,24 +70,64 @@ title: Fun Stuff
             First Modified: 2020-09-08 by Ruokai Yin
         </p>
         <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
+            // var slideIndex = 1;
+            // showDivs(slideIndex);
     
+            // function plusDivs(n) {
+            //     showDivs(slideIndex += n);
+            // }
+    
+            // function showDivs(n) {
+            //     var i;
+            //     var x = document.getElementsByClassName("mySlides");
+            //     if (n > x.length) {slideIndex = 1}
+            //     if (n < 1) {slideIndex = x.length} ;
+            //     for (i = 0; i < x.length; i++) {
+            //         x[i].style.display = "none";
+            //     }
+            //     x[slideIndex-1].style.display = "block";
+            // }
+            document.getElementById('lastModified').textContent = document.lastModified.split(" ")[0];
             function plusDivs(n) {
                 showDivs(slideIndex += n);
             }
-    
+
             function showDivs(n) {
                 var i;
                 var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
                 if (n > x.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = x.length} ;
+                if (n < 1) {slideIndex = x.length}
                 for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
+                    x[i].style.display = "none";  
                 }
-                x[slideIndex-1].style.display = "block";
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                x[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
             }
-            document.getElementById('lastModified').textContent = document.lastModified.split(" ")[0];
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function createDots() {
+                var container = document.querySelector('.dots');
+                var slides = document.getElementsByClassName('mySlides');
+                for (var i = 0; i < slides.length; i++) {
+                    var dot = document.createElement('span');
+                    dot.classList.add('dot');
+                    dot.setAttribute('onclick', 'currentDiv(' + (i + 1) + ')');
+                    container.appendChild(dot);
+                }
+            }
+
+            var slideIndex = 1;
+            window.onload = function() {
+                createDots();
+                showDivs(slideIndex);
+            }
         </script>
     </footer>
 </body>
