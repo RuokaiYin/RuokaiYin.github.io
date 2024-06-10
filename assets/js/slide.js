@@ -42,7 +42,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   var slides = document.getElementsByClassName('mySlides');
-  var dots = document.getElementsByClassName('dot');
+  var dots = document.getElementsByClassName('dots');
   var slideIndex = 1;
   showDivs(slideIndex);
 
