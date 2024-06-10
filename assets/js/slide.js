@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function showDivs(n) {
-      console.log("Function showDivs called with n =", n); 
+      // console.log("Function showDivs called with n =", n); 
       if (n > slides.length) { slideIndex = 1; }
       if (n < 1) { slideIndex = slides.length; }
       for (var i = 0; i < slides.length; i++) {
@@ -35,8 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Attaching event listeners to the prev and next buttons
-  // document.querySelector('.prev').addEventListener('click', function() { plusDivs(-1); });
-  // document.querySelector('.next').addEventListener('click', function() { plusDivs(1); });
   document.querySelector('.prev').addEventListener('click', function() {
     plusDivs(-1);
 });
