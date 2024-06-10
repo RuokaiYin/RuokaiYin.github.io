@@ -1,48 +1,18 @@
-// function plusDivs(n) {
-//   showDivs(slideIndex += n);
-// }
-
-// function showDivs(n) {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides");
-//   if (n > x.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = x.length} ;
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none";
-//   }
-//   x[slideIndex-1].style.display = "block";
-// }
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   var slides = document.getElementsByClassName('mySlides');
-//   var dots = document.getElementsByClassName('dot');
-//   var slideIndex = 1;
-//   showDivs(slideIndex);
-
-//   function plusDivs(n) {
-//       showDivs(slideIndex += n);
-//   }
-
-//   function showDivs(n) {
-//       if (n > slides.length) {slideIndex = 1}
-//       if (n < 1) {slideIndex = slides.length}
-//       for (var i = 0; i < slides.length; i++) {
-//           slides[i].style.display = "none";
-//       }
-//       for (var i = 0; i < dots.length; i++) {
-//           dots[i].className = dots[i].className.replace(" active", "");
-//       }
-//       slides[slideIndex-1].style.display = "block";
-//       dots[slideIndex-1].className += " active";
-//   }
-
-//   document.querySelector('.prev').addEventListener('click', function() { plusDivs(-1); });
-//   document.querySelector('.next').addEventListener('click', function() { plusDivs(1); });
-// });
+function createDots() {
+  var container = document.querySelector('.dots');
+  var slides = document.getElementsByClassName('mySlides');
+  for (var i = 0; i < slides.length; i++) {
+      var dot = document.createElement('span');
+      dot.classList.add('dot');  // Individual dots
+      dot.setAttribute('onclick', 'currentDiv(' + (i + 1) + ')');
+      container.appendChild(dot);
+  }
+}
 
 document.addEventListener('DOMContentLoaded', function() {
+  createDots();  // Ensure this runs first
   var slides = document.getElementsByClassName('mySlides');
-  var dots = document.getElementsByClassName('dots');
+  var dots = document.getElementsByClassName('dot');  // This is correct if individual dots have class 'dot'
   var slideIndex = 1;
   showDivs(slideIndex);
 
@@ -68,11 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // document.querySelector('.prev').addEventListener('click', function() { plusDivs(-1); });
   // document.querySelector('.next').addEventListener('click', function() { plusDivs(1); });
   document.querySelector('.prev').addEventListener('click', function() {
-    console.log("Previous button clicked.");
     plusDivs(-1);
 });
 document.querySelector('.next').addEventListener('click', function() {
-    console.log("Next button clicked.");
     plusDivs(1);
 });
 });
