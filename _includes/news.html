@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
     <div class="col-12">
         <h2 id="news">News</h2>
     </div>
@@ -13,4 +13,47 @@
         <li><strong>Sep, 2023:</strong> » MINT is accepted to ASP-DAC 2024.</a></li>
         <!-- Add more news items here -->
     </ul>
-</div>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        .news-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .news-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .news-list li::before {
+            content: '»';
+            margin-right: 10px;
+            color: #000; /* Adjust the color as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">
+            <h2 id="news">News</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <ul class="news-list">
+            <li><strong>Jul, 2024:</strong> LoAS is accepted to MICRO 2024.</li>
+            <li><strong>Jun, 2024:</strong> Starting the position of Research Intern in ASIC team at <a href="https://www.cerebras.net/company/">Cerebras System Inc.</a></li>
+            <li><strong>Mar, 2024:</strong> u-Ticket is accepted to IEEE TETCI.</li>
+            <li><strong>Oct, 2023:</strong> MINT is nominated for best paper award at ASP-DAC 2024.</li>
+            <li><strong>Sep, 2023:</strong> MINT is accepted to ASP-DAC 2024.</li>
+            <!-- Add more news items here -->
+        </ul>
+    </div>
+</body>
+</html>
