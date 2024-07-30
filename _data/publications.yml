@@ -1,3 +1,16 @@
+- title: "LoAS: Fully Temporal-Parallel Datatflow for Dual-Sparse Spiking Neural Networks"
+  author: >
+    <b>Ruokai Yin</b>, Youngeun Kim, Di Wu, Priyadarshini Panda
+  booktitle: 57th IEEE/ACM International Symposium on Microarchitecture (MICRO)
+  year: 2024
+  month: Nov
+  address: Austin, USA
+  publisher: IEEE
+  conference: MICRO'24
+  file: loas.pdf
+  code: https://github.com/RuokaiYin/LoAS
+  pre: N
+
 - title: "TT-SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training"
   author: >
     Donghyun Lee, <b>Ruokai Yin</b>, Youngeun Kim, Abhishek Moitra, Yuhang Li, Priyadarshini Panda
