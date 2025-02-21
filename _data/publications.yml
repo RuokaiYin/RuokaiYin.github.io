@@ -1,3 +1,16 @@
+- title: "PacQ: A SIMT Microarchitecture for Efficient Dataflow in Hyper-asymmetric GEMMs"
+  author: >
+    <b>Ruokai Yin</b>, Yuhang Li, Priyadarshini Panda
+  booktitle: 62nd ACM/IEEE Design Automation Conference (DAC)
+  year: 2025
+  month: June
+  address: San Francisco, USA
+  publisher: ACM
+  conference: DAC'25
+  file: pacq.pdf
+  code: https://github.com/RuokaiYin
+  pre: N
+
 - title: "LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks"
   author: >
     <b>Ruokai Yin</b>, Youngeun Kim, Di Wu, Priyadarshini Panda
