@@ -30,25 +30,26 @@
 </table> -->
 
 
-<div style="background-color: #00356b; padding: 10px; width: 100%;">
-    <table style="width: 100%; border: 0px;">
+<div style="background-color: #00356b; padding: 5px 0; width: 100%; margin: 0;">
+    <table style="width: 100%; border: 0px; margin: 0; border-spacing: 0;">
         <tr>
-            <td style="text-align: left; border: 0px; width: 40%;">
+            <td style="text-align: left; border: 0px; width: 40%; vertical-align: middle; padding: 0 20px;">
                 <h2 style="margin: 0; color: white;">
                     Ruokai Yin
                 </h2>
             </td>
-            <td style="text-align: right; border: 0px; width: 60%;">
+            <td style="text-align: right; border: 0px; width: 60%; vertical-align: middle; padding: 0 20px;">
                 {% for item in site.data.navigation %}
                 <span style="margin-left: 25px;">
-                    <a href="{{ item.link }}" style="color: white; text-decoration: none; font-weight: bold;" {% if page.url == item.link %} class="current" {% endif%}>
-                        {{item.name}}
-                    </a>
+                    <h2 style="display: inline-block; margin: 0;">
+                        <a href="{{ item.link }}" style="color: white; text-decoration: none; font-weight: bold;" {% if page.url == item.link %} class="current" {% endif%}>
+                            {{item.name}}
+                        </a>
+                    </h2>
                 </span>
                 {% endfor %}
             </td>
         </tr>
     </table>
 </div>
-
 <!-- • 尹若恺 -->
