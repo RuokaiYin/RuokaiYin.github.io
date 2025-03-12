@@ -22,7 +22,7 @@
   conference: MICRO'24
   file: loas.pdf
   code: https://github.com/RuokaiYin/LoAS
-  pre: N
+  pre: loas_micro_2024_final.pdf
 
 # - title: "TT-SNN: Tensor Train Decomposition for Efficient Spiking Neural Network Training"
 #   author: >
@@ -74,7 +74,7 @@
   conference: ASP-DAC'24
   file: mint.pdf
   code: https://github.com/RuokaiYin/MINT_Quantization
-  pre: mint-aspdac2024.pptx
+  pre: mint-aspdac2024.pdf
 
 # - title: "Sharing Leaky-Integrate-and-Fire Neurons for Memory-Efficient Spiking Neural Networks"
 #   author: >
