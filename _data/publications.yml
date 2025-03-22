@@ -80,7 +80,7 @@
   conference: NeurIPS'22
   file: har_snn.pdf
   code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
-  img: pacq.png
+  img: har.png
   pre: N
 
 
@@ -95,6 +95,7 @@
   conference: N
   file: sata.pdf
   code: https://github.com/RuokaiYin/SATA_Sim
+  img: sata.png
   pre: N
 
 - title: "uGEMM: Unary Computing Architecture for GEMM Applications"
@@ -109,5 +110,5 @@
   conference: ISCA'20
   file: ugemm.pdf
   code: https://github.com/diwu1990/UnarySim
-  img: pacq.png
+  img: ugemm.png
   pre: N
