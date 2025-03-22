@@ -23,7 +23,7 @@
   conference: MICRO'24
   file: loas.pdf
   code: https://github.com/RuokaiYin/LoAS
-  img: pacq.png
+  img: loas.png
   pre: loas_micro_2024_final.pdf
 
 - title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
