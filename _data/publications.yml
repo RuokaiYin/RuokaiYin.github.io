@@ -26,33 +26,6 @@
   img: loas.png
   pre: loas_micro_2024_final.pdf
 
-- title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
-  author: >
-    <b>Ruokai Yin</b>, Youngeun Kim, Yuhang Li, Abhishek Moitra, Nitin Satpute, Anna Hambitzer, Priyadarshini Panda
-  booktitle: IEEE Transactions on Emerging Topics in Computational Intelligence
-  year: 2024
-  month: 
-  address:
-  publisher: IEEE
-  conference: N
-  file: uticket.pdf
-  code: https://github.com/RuokaiYin/u-Ticket
-  img: pacq.png
-  pre: N
-
-# - title: "Are SNNs Truly Energy-efficient? - A Hardware Perspective"
-#   author: >
-#     Abhiroop Bhattacharjee*, <b>Ruokai Yin*</b>, Abhishek Moitra*, Priyadarshini Panda (* Equal Contribution)
-#   booktitle: 2024 IEEE International Conference on Acounstics, Speech, and Signal Processing (ICASSP)
-#   year: 2024
-#   month: April
-#   address: Seoul, Korea
-#   publisher: IEEE
-#   conference: ICASSP'24
-#   file: icassp2024.pdf
-#   code: https://github.com/RuokaiYin/SATA_Sim
-#   pre: N
-
 - title: "MINT: Multiplier-less INTeger Quantization for Energy Efficient Spiking Neural Networks"
   author: >
     <b>Ruokai Yin</b>, Yuhang Li, Abhishek Moitra, Priyadarshini Panda
@@ -64,8 +37,36 @@
   conference: ASP-DAC'24
   file: mint.pdf
   code: https://github.com/RuokaiYin/MINT_Quantization
-  img: pacq.png
+  img: mint.png
   pre: mint-aspdac2024.pdf
+
+- title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
+  author: >
+    <b>Ruokai Yin</b>, Youngeun Kim, Yuhang Li, Abhishek Moitra, Nitin Satpute, Anna Hambitzer, Priyadarshini Panda
+  booktitle: IEEE Transactions on Emerging Topics in Computational Intelligence
+  year: 2024
+  month: 
+  address:
+  publisher: IEEE
+  conference: N
+  file: uticket.pdf
+  code: https://github.com/RuokaiYin/u-Ticket
+  img: uticket.png
+  pre: N
+
+# - title: "Are SNNs Truly Energy-efficient? - A Hardware Perspective"
+#   author: >
+#     <b>Ruokai Yin*</b>, Abhiroop Bhattacharjee*, Abhishek Moitra*, Priyadarshini Panda (* Equal Contribution)
+#   booktitle: 2024 IEEE International Conference on Acounstics, Speech, and Signal Processing (ICASSP)
+#   year: 2024
+#   month: April
+#   address: Seoul, Korea
+#   publisher: IEEE
+#   conference: ICASSP'24
+#   file: icassp2024.pdf
+#   code: https://github.com/RuokaiYin/SATA_Sim
+#   img: uticket.png
+#   pre: N
 
 
 - title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
