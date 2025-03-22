@@ -1,52 +1,51 @@
 <div class="row">
     <div class="col-12">
-        <h2>Selected Publications</h2>
-        <p></p>
+     <h2>Selected Publications</h2>
+     <p></p>
     </div>
-</div>
-
-{% for publication in site.data.publications %}
-<div class="row publication-item mb-4 align-items-center">
-    <!-- Publication information (60%) -->
-    <div class="col-md-7 offset-md-1">
-      <div class="papertitle">{{ publication.title }}</div>
-      <div class="paperauthors">{{ publication.author }}</div>
-      {% if publication.conference == "N" %}
-        <div class="paperauthors">{{ publication.booktitle }}, {{ publication.year }}</div>
-      {% else %}
-        <div class="paperauthors">{{ publication.booktitle }}, 
-          {% if publication.month %}{{ publication.month }}, {% endif %}
-          {{ publication.year }}
-        </div>
-      {% endif %}
-      <div class="paper-links">
-        [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
-        {% if publication.code %}
-          &nbsp;[<a class="papertitle" href="{{ publication.code }}">code</a>]
-        {% endif %}
-        {% if publication.pre and publication.pre != "N" %}
-          &nbsp;[<a class="papertitle" href="{{ site.baseurl }}/slides/{{publication.pre}}">slides</a>]
-        {% endif %}
-      </div>
-    </div>
-    
-    <!-- Publication image (40%) -->
-    <div class="col-md-5 text-center d-flex align-items-center justify-content-center">
-        <img class="img-fluid paper-thumbnail" src="{{ site.baseurl }}/assets/paper-thumbnails/{{publication.img}}" 
-             alt="Thumbnail for {{publication.title}}">
-      </div>
-    </div>
-{% endfor %}
-
-<!-- Add some CSS to make it look nicer -->
-<style>
-    .publication-item {
-      padding: 15px 0;
-      border-bottom: 1px solid #eee;
-    }
-    .paper-thumbnail {
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      max-height: 180px;
-      object-fit: contain;
-    }
-    </style>
+   </div>
+   {% for publication in site.data.publications %}
+   <div class="row publication-item mb-4 align-items-center">
+     <div class="col-md-7">
+       <div class="publication-content">
+         <div class="papertitle">{{ publication.title }}</div>
+         <div class="paperauthors">{{ publication.author }}</div>
+         {% if publication.conference == "N" %}
+         <div class="paperauthors">{{ publication.booktitle }}, {{ publication.year }}</div>
+         {% else %}
+         <div class="paperauthors">{{ publication.booktitle }},
+           {% if publication.month %}{{ publication.month }}, {% endif %}
+           {{ publication.year }}
+         </div>
+         {% endif %}
+         <div class="paper-links">
+           [<a class="papertitle" href="{{site.baseurl}}/papers/{{publication.file}}">paper</a>]
+           {% if publication.code %}
+           &nbsp;[<a class="papertitle" href="{{publication.code}}">code</a>]
+           {% endif %}
+           {% if publication.pre and publication.pre != "N" %}
+           &nbsp;[<a class="papertitle" href="{{site.baseurl}}/slides/{{publication.pre}}">slides</a>]
+           {% endif %}
+         </div>
+       </div>
+     </div>
+     <div class="col-md-5 d-flex align-items-center justify-content-center">
+       <img class="img-fluid paper-thumbnail" src="{{site.baseurl}}/assets/paper-thumbnails/{{publication.img}}"
+            alt="Thumbnail for {{publication.title}}">
+     </div>
+   </div>
+   {% endfor %}
+   <style>
+   .publication-item {
+     padding: 15px 0;
+     border-bottom: 1px solid #eee;
+   }
+   .publication-content {
+     padding-left: 15%;
+   }
+   .paper-thumbnail {
+     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+     max-height: 180px;
+     object-fit: contain;
+   }
+   </style>
