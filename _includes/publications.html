@@ -19,6 +19,8 @@
         {{ publication.year }}
         </div>
         {% endif %}
+        {% if publication.award%}
+        <div class="awards"><i class="fas fa-award"></i> {{ publication.award }} </div>
         <div class="paper-links">
         [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
         {% if publication.code %}
@@ -27,6 +29,7 @@
         {% if publication.pre and publication.pre != "N" %}
         &nbsp;[<a class="papertitle" href="{{ site.baseurl }}/slides/{{publication.pre}}">slides</a>]
         {% endif %}
+        
         </div>
     </div>
     </div>

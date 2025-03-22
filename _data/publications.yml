@@ -3,7 +3,8 @@
     <b>Ruokai Yin</b>, Yuhang Li, Priyadarshini Panda
   booktitle: 62nd ACM/IEEE Design Automation Conference (DAC)
   year: 2025
-  month: June
+  # month: June
+  month:
   address: San Francisco, USA
   publisher: ACM
   conference: DAC'25
@@ -11,14 +12,16 @@
   code: https://github.com/RuokaiYin
   img: pacq.png
   pre: N
+  award:
 
 - title: "LoAS: Fully Temporal-Parallel Dataflow for Dual-Sparse Spiking Neural Networks"
   author: >
     <b>Ruokai Yin</b>, Youngeun Kim, Di Wu, Priyadarshini Panda
   booktitle: 57th IEEE/ACM International Symposium on Microarchitecture (MICRO)
   year: 2024
-  month: Nov
+  # month: Nov
   address: Austin, USA
+  month:
   publisher: IEEE
   conference: MICRO'24
   file: loas.pdf
@@ -31,7 +34,8 @@
     <b>Ruokai Yin</b>, Yuhang Li, Abhishek Moitra, Priyadarshini Panda
   booktitle: 29th Asia and South Pacific Design Automation Conference (ASP-DAC) <b>(Nominated as Best Paper)</b>
   year: 2024
-  month: Jan
+  # month: Jan
+  month:
   address: Incheon, Korea
   publisher: IEEE
   conference: ASP-DAC'24
@@ -39,6 +43,7 @@
   code: https://github.com/RuokaiYin/MINT_Quantization
   img: mint.png
   pre: mint-aspdac2024.pdf
+  award: Nominated as Best Paper
 
 - title: "Workload-Balanced Pruning for Sparse Spiking Neural Networks"
   author: >
@@ -53,6 +58,7 @@
   code: https://github.com/RuokaiYin/u-Ticket
   img: uticket.png
   pre: N
+  award:
 
 # - title: "Are SNNs Truly Energy-efficient? - A Hardware Perspective"
 #   author: >
@@ -74,7 +80,8 @@
     Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
   booktitle: 36th NeurIPS Workshop on Learning from Time Series for Health <b>(Selected as Spotlight Paper)</b>
   year: 2022
-  month: Dec
+  # month: Dec
+  month:
   address: New Orleans, US
   publisher: IEEE
   conference: NeurIPS'22
@@ -82,6 +89,7 @@
   code: https://github.com/Intelligent-Computing-Lab-Yale/SNN_HAR
   img: har.png
   pre: N
+  award: Spotlight Paper
 
 
 - title: "SATA: Sparsity-Aware Training Accelerator for Spiking Neural Networks"
@@ -97,6 +105,7 @@
   code: https://github.com/RuokaiYin/SATA_Sim
   img: sata.png
   pre: N
+  award:
 
 - title: "uGEMM: Unary Computing Architecture for GEMM Applications"
   author: >
@@ -104,7 +113,8 @@
     Hsuan Hsiao, Younghyun Kim, and Joshua San Miguel
   booktitle: 47th Annual International Symposium on Computer Architecture (ISCA)
   year: 2020
-  month: Jun
+  # month: Jun
+  month:
   address: Valencia, Spain
   publisher: IEEE
   conference: ISCA'20
@@ -112,3 +122,4 @@
   code: https://github.com/diwu1990/UnarySim
   img: ugemm.png
   pre: N
+  award: IEEE 2020 Toppick
