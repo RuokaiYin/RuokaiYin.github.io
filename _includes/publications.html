@@ -6,7 +6,7 @@
 </div>
 
 {% for publication in site.data.publications %}
-<div class="row publication-item mb-4">
+<div class="row publication-item mb-4 align-items-center">
     <!-- Publication information (60%) -->
     <div class="col-md-7">
       <div class="papertitle">{{ publication.title }}</div>
@@ -31,7 +31,7 @@
     </div>
     
     <!-- Publication image (40%) -->
-    <div class="col-md-5">
+    <div class="col-md-5 text-center d-flex align-items-center justify-content-center">
         <img class="img-fluid paper-thumbnail" src="{{ site.baseurl }}/assets/paper-thumbnails/{{publication.img}}" 
              alt="Thumbnail for {{publication.title}}">
       </div>
@@ -40,11 +40,13 @@
 
 <!-- Add some CSS to make it look nicer -->
 <style>
+    .publication-item {
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+    }
     .paper-thumbnail {
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       max-height: 180px;
       object-fit: contain;
-      display: block;
-      margin: 0 auto;
     }
-  </style>
+    </style>
