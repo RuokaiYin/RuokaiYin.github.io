@@ -20,7 +20,7 @@
         </div>
         {% endif %}
         {% if publication.award%}
-        <div class="awards"><i class="fas fa-award"></i> {{ publication.award }} </div>
+        <div class="awards" style="color: #00356b;"><i class="fas fa-award"></i> {{ publication.award }}</div>
         {% endif %}
         <div class="paper-links">
         [<a class="papertitle" href="{{ site.baseurl }}/papers/{{publication.file}}">paper</a>]
@@ -51,7 +51,6 @@
         padding-left: 0;
     }
     .paper-thumbnail {
-        /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
         width: 280px;
         height: 150px;
         object-fit: contain;
