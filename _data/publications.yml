@@ -16,7 +16,7 @@
 - title: "Learning to Shard: RL for Co-optimizing the Parallelism Degrees and Per-operator Sharding Dimensions in Distributed LLM Inference"
   author: >
     <b>Ruokai Yin</b>, Sattwik Deb Mishra, Xuan Zuo, Hokchhay Tann, Preyas Shah, Apala Guha
-  booktitle: Workshop on ML for Systems, NeurIPS 2025.
+  booktitle: Workshop on ML for Systems, NeurIPS
   year: 2025
   month: 
   address: San Diego, USA
@@ -108,7 +108,7 @@
 - title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
     Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
-  booktitle: Workshop on Learning from Time Series for Health, NeurIPS 2022
+  booktitle: Workshop on Learning from Time Series for Health, NeurIPS
   year: 2022
   # month: Dec
   month:
