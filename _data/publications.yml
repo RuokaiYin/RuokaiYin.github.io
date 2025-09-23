@@ -1,3 +1,33 @@
+- title: "DuoGPT: Training-free Dual Sparsity through Activation-aware Pruning in LLMs"
+  author: >
+    <b>Ruokai Yin</b>, Yuhang Li, Donghyun Lee, Priyadarshini Panda
+  booktitle: 39th Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2025
+  month: 
+  address: San Diego, USA
+  publisher: ACM
+  conference: NeurIPS'25
+  file: duogpt.pdf
+  code: https://github.com/RuokaiYin/DuoGPT
+  img: duogpt.png
+  pre: N
+  award:
+
+- title: "Learning to Shard: RL for Co-optimizing the Parallelism Degrees and Per-operator Sharding Dimensions in Distributed LLM Inference"
+  author: >
+    <b>Ruokai Yin</b>, Sattwik Deb Mishra, Xuan Zuo, Hokchhay Tann, Preyas Shah, Apala Guha
+  booktitle: Workshop on ML for Systems, NeurIPS 2025.
+  year: 2025
+  month: 
+  address: San Diego, USA
+  publisher: ACM
+  conference: NeurIPS'25
+  file: learn2shard.pdf
+  code: https://github.com/RuokaiYin
+  img: learn2shard.png
+  pre: N
+  award:
+
 - title: "PacQ: A SIMT Microarchitecture for Efficient Dataflow in Hyper-asymmetric GEMMs"
   author: >
     <b>Ruokai Yin</b>, Yuhang Li, Priyadarshini Panda
@@ -78,7 +108,7 @@
 - title: "Wearable-based Human Activity Recognition with Spatio-Temporal Spiking Neural Networks"
   author: >
     Yuhang Li, <b>Ruokai Yin</b>, Hyoungseob Park, Youngeun Kim, Priyadarshini Panda
-  booktitle: 36th NeurIPS Workshop on Learning from Time Series for Health
+  booktitle: Workshop on Learning from Time Series for Health, NeurIPS 2022
   year: 2022
   # month: Dec
   month:
