@@ -26,7 +26,7 @@
   code: https://github.com/RuokaiYin
   img: learn2shard.png
   pre: N
-  award: Spotlight Presentation
+  award: <b>Spotlight Presentation</b>
 
 - title: "PacQ: A SIMT Microarchitecture for Efficient Dataflow in Hyper-asymmetric GEMMs"
   author: >
